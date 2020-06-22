@@ -2,31 +2,33 @@ const config = {
   gatsby: {
     pathPrefix: '/cs224n-tensorflow',
     siteUrl: 'https://abhishekdutt.github.io',
-    gaTrackingId: null,
+    gaTrackingId: 'G-PGYTQE1RBF',
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    // logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    logo: 'https://lh3.googleusercontent.com/proxy/k1tmz89lRPB0rU6Sx2pYELRQk2fMhWNJIot7xpKfp4cFi_ySOHaQRm1EIKWvBKSFXbv4uIKjHAwtKcQLeQvaHMIu6HHwTLKIdpWc03tCr3DleUNiV7giiVuHdphAqHpYb9R8PJ2Wa3nsglFy-e-d9GqA0kulCIrFh7rV0R9Px7XhIQ',
+    logoLink: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
+    // title: "YOLO",
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      "<a href='https://github.com/AbhishekDutt/cs224n-tensorflow'><img class='img-responsive' src='https://lh3.googleusercontent.com/proxy/k1tmz89lRPB0rU6Sx2pYELRQk2fMhWNJIot7xpKfp4cFi_ySOHaQRm1EIKWvBKSFXbv4uIKjHAwtKcQLeQvaHMIu6HHwTLKIdpWc03tCr3DleUNiV7giiVuHdphAqHpYb9R8PJ2Wa3nsglFy-e-d9GqA0kulCIrFh7rV0R9Px7XhIQ' alt='Learn logo' /></a>",
+    githubUrl: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
     helpUrl: '',
     tweetText: '',
-    social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
+    // social: `<li>
+		//     <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		//       <div class="twitterBtn">
+		//         <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
+		//       </div>
+		//     </a>
+		//   </li>
+		// 	<li>
+		//     <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
+		//       <div class="discordBtn">
+		//         <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		//       </div>
+		//     </a>
+		//   </li>`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -38,24 +40,29 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
+      '/Welcome',
+      '/01_word_vectors',
+      '05_linguistic_structure_dependency_parsing',
+      '/15_natural_language_generation',
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    // links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [],
     frontline: false,
-    ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    ignoreIndex: false,
+    // title:
+    //   "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'CS224n Natural Language Processing Tutorial | Abhishek Dutt',
+    description: 'A gentler tutorial into Natural Language Processing focussed on professionals',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    docsLocation: 'https://abhishekdutt.github.io/cs224n-tensorflow/',
+    favicon: null,
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
