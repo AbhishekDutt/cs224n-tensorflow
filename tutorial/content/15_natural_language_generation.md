@@ -1,6 +1,6 @@
 ---
 title: "15. Natural Language Generation"
-metaTitle: "This is the title tag of this page"
+metaTitle: "This is the title tag of this page 15"
 metaDescription: "This is the meta description"
 ---
 
@@ -227,37 +227,31 @@ What makes a good conversation? How controllable attributes affect human judgmen
 ## 4. Thoughts on NLG research, current trends, and the future
 
 ### 4.1. Exciting current trends in NLG
-• Incorporating discrete latent variables into NLG
-• May help with modeling structure in tasks that really need it,
-like storytelling, task-oriented dialogue, etc
-• Alternatives to strict left-to-right generation • Parallel generation, iterative refinement,
-top-down generation for longer pieces of text
-• Alternative to maximum likelihood training with teacher forcing • More holistic sentence-level (rather than word-level)
+- Incorporating discrete latent variables into NLG
+  - May help with modeling structure in tasks that really need it, like storytelling, task-oriented dialogue, etc
+- Alternatives to strict left-to-right generation
+  - Parallel generation, iterative refinement, top-down generation for longer pieces of text
+- Alternative to maximum likelihood training with teacher forcing
+  - More holistic sentence-level (rather than word-level)
 objectives
 
 Neural NLG community is rapidly maturing
-• During the early years of NLP + Deep Learning, community was mostly transferring successful NMT methods to NLG tasks.
-• Now, increasingly more inventive NLG techniques emerging, specific to non-NMT generation settings.
-• Increasingly more (neural) NLG workshops and competitions, especially focusing on open-ended NLG:
-• NeuralGenworkshop
-• Storytellingworkshop
-• Alexachallenge
-• ConvAI2NeurIPSchallenge
-• These are particularly useful to organize the community, increase reproducibility, standardize eval, etc.
-• The biggest roadblock for progress is eval
+- During the early years of NLP + Deep Learning, community was mostly transferring successful NMT methods to NLG tasks.
+- Now, increasingly more inventive NLG techniques emerging, specific to non-NMT generation settings.
+- Increasingly more (neural) NLG workshops and competitions, especially focusing on open-ended NLG:
+  - NeuralGen workshop
+  - Storytelling workshop
+  - Alexa challenge
+  - ConvAI2 NeurIPS challenge
+- These are particularly useful to organize the community, increase reproducibility, standardize eval, etc.
+- The biggest roadblock for progress is eval
 
-8 things I’ve learnt from working in NLG
-1.
-The more open-ended the task, the harder everything becomes.
-Constraints are sometimes welcome!
-Aiming for a specific improvement can be more manageable
-than aiming to improve overall generation quality.
-If you’re using a LM for NLG: improving the LM (i.e. perplexity)
-will most likely improve generation quality.
-...but it's not the only way to improve generation quality.
-Look at your output, a lot
-5. You need an automatic metric, even if it's imperfect. • You probably need several automatic metrics.
+### 8 things I’ve learnt from working in NLG
+1. The more open-ended the task, the harder everything becomes. _Constraints are sometimes welcome!_
+2. Aiming for a specific improvement can be more manageable than aiming to improve overall generation quality.
+3. If you’re using a LM for NLG: improving the LM (i.e. perplexity) will most likely improve generation quality. _...but it's not the only way to improve generation quality._
+4. Look at your output, a lot
+5. You need an automatic metric, even if it's imperfect. _You probably need several automatic metrics._
 6. If you do human eval, make the questions as focused as possible.
-7. Reproducibility is a huge problem in today's NLP + Deep Learning, and a huger problem in NLG.
-• Please, publicly release all your generated output along with your paper!
+7. Reproducibility is a huge problem in today's NLP + Deep Learning, and a huger problem in NLG. _Please, publicly release all your generated output along with your paper!_
 8. Working in NLG can be very frustrating. But also very funny...

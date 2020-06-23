@@ -6,12 +6,12 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    // logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logo: 'https://lh3.googleusercontent.com/proxy/k1tmz89lRPB0rU6Sx2pYELRQk2fMhWNJIot7xpKfp4cFi_ySOHaQRm1EIKWvBKSFXbv4uIKjHAwtKcQLeQvaHMIu6HHwTLKIdpWc03tCr3DleUNiV7giiVuHdphAqHpYb9R8PJ2Wa3nsglFy-e-d9GqA0kulCIrFh7rV0R9Px7XhIQ',
+    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
+    // logo: '',
     logoLink: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
     // title: "YOLO",
     title:
-      "<a href='https://github.com/AbhishekDutt/cs224n-tensorflow'><img class='img-responsive' src='https://lh3.googleusercontent.com/proxy/k1tmz89lRPB0rU6Sx2pYELRQk2fMhWNJIot7xpKfp4cFi_ySOHaQRm1EIKWvBKSFXbv4uIKjHAwtKcQLeQvaHMIu6HHwTLKIdpWc03tCr3DleUNiV7giiVuHdphAqHpYb9R8PJ2Wa3nsglFy-e-d9GqA0kulCIrFh7rV0R9Px7XhIQ' alt='Learn logo' /></a>",
+      "<a href='https://github.com/AbhishekDutt/cs224n-tensorflow'>CS224n Tensorflow</a>",
     githubUrl: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
     helpUrl: '',
     tweetText: '',
@@ -42,7 +42,7 @@ const config = {
     forcedNavOrder: [
       '/Welcome',
       '/01_word_vectors',
-      '05_linguistic_structure_dependency_parsing',
+      '/05_linguistic_structure_dependency_parsing',
       '/15_natural_language_generation',
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
