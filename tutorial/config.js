@@ -42,10 +42,14 @@ const config = {
     forcedNavOrder: [
       '/Welcome',
       '/01_word_vectors',
+      '/03_word_window',
       '/05_linguistic_structure_dependency_parsing',
+      '/06_language_models_rnn',
+      '/07_vanishing_gradients_fancy_rnn',
       '/15_natural_language_generation',
       '/introduction', // add trailing slash if enabled above
       '/codeblock',
+      '/extra_stuff'
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
