@@ -1,5 +1,7 @@
 import { injectGlobal } from 'emotion';
-
+// For LaTeX plugin gatsby-remark-katex
+import "katex/dist/katex.min.css"
+// @import url('https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css');
 export const baseStyles = injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');

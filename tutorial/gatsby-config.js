@@ -32,6 +32,14 @@ const plugins = [
         },
         {
           resolve: 'gatsby-remark-copy-linked-files'
+        },
+        // Added LaTeX plugin
+        {
+          resolve: `gatsby-remark-katex`,
+          options: {
+            // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+            strict: `ignore`
+          }
         }
       ],
       extensions: [".mdx", ".md"]
@@ -47,7 +55,7 @@ const plugins = [
       // enable ip anonymization
       anonymize: false,
     },
-  },
+  }
 ];
 // check and add algolia
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {

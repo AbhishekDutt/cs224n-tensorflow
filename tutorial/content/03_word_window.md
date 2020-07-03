@@ -12,6 +12,19 @@ xᵢ = ⎡ ⎤
      ⎢ ⎥
      ⎣ ⎦
 ```
+<button>Edit my text</button>
+
+start testing latex 
+
+$a^2 + b^2 = c^2$
+
+test again
+
+$$
+a^2 + b^2 = c^2
+$$
+
+end test latex
 
 Aim of this section:
 1. Softmax function (and not the softmax classifier)
