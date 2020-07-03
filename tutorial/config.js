@@ -47,9 +47,9 @@ const config = {
       '/06_language_models_rnn',
       '/07_vanishing_gradients_fancy_rnn',
       '/15_natural_language_generation',
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
-      '/extra_stuff'
+      '/introduction',
+      '/extra_stuff',
+      '/codeblock'
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
