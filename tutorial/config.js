@@ -41,18 +41,19 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/Welcome',
+      '/00_toc',
       '/01_word_vectors',
       '/03_word_window',
       '/05_linguistic_structure_dependency_parsing',
       '/06_language_models_rnn',
       '/07_vanishing_gradients_fancy_rnn',
       '/15_natural_language_generation',
-      '/introduction',
       '/extra_stuff',
       '/codeblock'
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
+      '/01_word_vectors'
     ],
     // links: [{ text: 'Hasura', link: 'https://hasura.io' }],
     links: [],
