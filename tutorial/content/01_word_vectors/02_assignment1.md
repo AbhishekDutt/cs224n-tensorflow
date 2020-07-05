@@ -1,13 +1,12 @@
 ---
-title: "Table of Contents"
+title: "Assignment 1"
 metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
 
 1. [Introduction and Word Vectors](/01_word_vectors) <br/>
     1.1. [Count Based Word Vectors](/01_word_vectors/01_count_based) <br/>
-    1.2. [Assignment 1](/01_word_vectors/02_assignment1) <br/>
-    1.3. [Word2Vec](/01_word_vectors/03_word2vec) <br/><br/>
+    1.2. [Word2Vec](/01_word_vectors/02_word2vec) <br/><br/>
 2. [Word Window Classification, Neural Networks, and Matrix Calculus](#section-2) <br/>
     2.1. [Subsection a](#subsection-a) <br/>
     2.2. [Subsection b](#subsection-b) <br/><br/>
