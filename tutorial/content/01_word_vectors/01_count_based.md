@@ -3,7 +3,7 @@ title: "Count Based Word Vectors"
 metaTitle: "Lecture 1 - Word Vectors"
 metaDescription: "All about word vectors"
 ---
-_(a.k.a. Frequency based Word Vecators)_
+_(a.k.a. Frequency based Word Vectors)_
 
 For this section, we assume our courpus is just 3 short documents: <br/>
 1. I go there, I stay there.
@@ -35,7 +35,7 @@ $$
 
 ---
 # 2. Word document matrix
-First we create a word-doucment matrix in which: <br/>
+First we create a word-doucment matrix in which:
 - Row $i$ correspond to token indexes.
 - Column $j$ corresponds to the documents 
 
@@ -81,7 +81,7 @@ Recall our example corpus: <br/>
 3. Do n't go there . <br/>
 
 We create a matrix by counting the number of times center token $i$ (row) and other token $j$ (column) occurs in window.
-E.g. using window size 2, the word $\text{there}$ occurs 3 times in $\text{I}$'s window (and vice-versa).
+E.g. using window size 2, the word $\text{“there”}$ occurs 4 times in $\text{“I”}$ windows (and vice-versa).
 $$
 W = \begin{bmatrix}
           & i & go & there & , & stay & . & do & n't \\

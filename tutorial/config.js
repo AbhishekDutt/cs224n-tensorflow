@@ -53,7 +53,7 @@ const config = {
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
-      '/01_word_vectors'
+      '/01_word_vectors/'
     ],
     // links: [{ text: 'Hasura', link: 'https://hasura.io' }],
     links: [],
