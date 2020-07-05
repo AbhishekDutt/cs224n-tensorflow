@@ -1,18 +1,18 @@
-name: cs221n
+name: cs224n
 channels:
   - defaults
 dependencies:
-  - python=3.7
-  - numpy
   - matplotlib
   - gensim
   - scikit-learn
-  - jupyterlab
-  - nltk
-  - torchvision
-  - pytorch
+  - python=3.7
   - tqdm
+  - torchvision
+  - numpy
+  - pytorch
+  - jupyterlab
   - docopt
+  - nltk
   - ipywidgets
-prefix: /Users/Abhishek/miniconda3/envs/cs221n
+prefix: /Users/Abhishek/miniconda3/envs/cs224n
 
