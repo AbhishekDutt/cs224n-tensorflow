@@ -42,9 +42,9 @@ First we create a word-doucment matrix in which:
 Matrix is populated one column at a time, by counting the number of times a token $i$ appears in the document $j$. 
 Each row in this matrix is the word vector for corresponding token. <br/>
 
-For our 8 token, 3 document corups, the matrix $W$:<br/>
+For our 8 token, 3 document corups, the matrix $M$:<br/>
 $$
-W = \begin{bmatrix}
+M = \begin{bmatrix}
     2 & 1 & 0\\
     1 & 0 & 1\\
     2 & 1 & 1\\
@@ -83,7 +83,7 @@ Recall our example corpus: <br/>
 We create a matrix by counting the number of times center token $i$ (row) and other token $j$ (column) occurs in window.
 E.g. using window size 2, the word $\text{“there”}$ occurs 4 times in $\text{“I”}$ windows (and vice-versa).
 $$
-W = \begin{bmatrix}
+M = \begin{bmatrix}
           & i & go & there & , & stay & . & do & n't \\
     i     & 0 & 1  & 4     & 1 & 2    & 0 & 0  & 0   \\
     go    & 1 & 0  & 2     & 1 & 0    & 1 & 1  & 1   \\
