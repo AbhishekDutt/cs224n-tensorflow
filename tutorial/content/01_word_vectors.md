@@ -6,11 +6,9 @@ metaDescription: "All about word vectors"
 
 NLP Tasks:
 Following are few of the common NLP tasks:
-1
-2
-3
-4
-
+1. Question answering
+2. Text generation
+3. Translation
 
 # Word Vectors: 
 Word vectors are a mathematical representation of written words. <br/>

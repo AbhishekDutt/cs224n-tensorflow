@@ -4,16 +4,19 @@ metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
 
-Assignement 1
+Following is a read only version of unsolved Assignment 1. <br/>
+Click here [COLAB] to try it.
 
-https://mybinder.org/v2/gh/AbhishekDutt/cs224n-tensorflow/master
+<iframe src="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/assignments/a1_preview/exploring_word_vectors.html" width="800" height="500"></iframe>
+
+In case you are stuck, here are a few hints:
+1.
+2.
+3.
+4.
 
 
-<iframe src="https://raw.githubusercontent.com/AbhishekDutt/cs224n-tensorflow/master/A1/exploring_word_vectors.html"></iframe>
-
-
-
-
+Here is the solved version of the Assignment 1 [COLAB], but it is highly recommened that you try it yourself first.
 
 
 
