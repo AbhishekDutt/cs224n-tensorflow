@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/05_linguistic_structure_dependency_parsing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors/02_assignment1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/03_word_window</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/00_toc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/07_vanishing_gradients_fancy_rnn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/05_linguistic_structure_dependency_parsing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/codeblock</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/06_language_models_rnn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/15_natural_language_generation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/extra_stuff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/06_language_models_rnn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/extra_stuff</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/codeblock/1-index</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors/01_count_based</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors/02_assignment1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors/03_word2vec</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/00_toc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://abhishekdutt.github.io/cs224n-tensorflow/01_word_vectors/singular_value_decomposition</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
