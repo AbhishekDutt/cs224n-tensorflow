@@ -29,5 +29,3 @@ In case you are stuck, here are a few hints:
 Here is the solved version of the Assignment 1 [COLAB], but it is highly recommened that you try it yourself first.
 
 
-
-

@@ -7,11 +7,13 @@ import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import config from '../../config';
 import { Edit, StyledHeading, StyledMainWrapper } from '../components/styles/Docs';
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
 export default class MDXRuntimeTest extends Component {
   render() {
+    
     const { data } = this.props;
 
     if (!data) {
@@ -76,6 +78,12 @@ export default class MDXRuntimeTest extends Component {
       config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
 
+    let disqusConfig = {
+      url: canonicalUrl,
+      identifier: mdx.fields.slug,
+      title: mdx.fields.title
+    }
+
     return (
       <Layout {...this.props}>
         <Helmet>
@@ -92,6 +100,7 @@ export default class MDXRuntimeTest extends Component {
         </Helmet>
         <div className={'titleWrapper'}>
           <StyledHeading>{mdx.fields.title}</StyledHeading>
+{/* 
           <Edit className={'mobileView'}>
             {docsLocation && (
               <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
@@ -99,6 +108,7 @@ export default class MDXRuntimeTest extends Component {
               </Link>
             )}
           </Edit>
+*/}
         </div>
         <StyledMainWrapper>
           <MDXRenderer>{mdx.body}</MDXRenderer>
@@ -106,6 +116,8 @@ export default class MDXRuntimeTest extends Component {
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
         </div>
+        <Disqus config={disqusConfig} />
+        {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
       </Layout>
     );
   }

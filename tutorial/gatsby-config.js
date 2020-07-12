@@ -56,7 +56,12 @@ const plugins = [
       anonymize: false,
     },
   },
-  'gatsby-plugin-catch-links'     // <-- Added to handle local links from Markdown such as '/about'
+  {
+    resolve: `gatsby-plugin-disqus`,
+    options: {
+      shortname: `cs224n-tensorflow`
+    }
+  }
 ];
 // check and add algolia
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {

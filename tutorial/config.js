@@ -12,7 +12,8 @@ const config = {
     // title: "YOLO",
     title:
       "<a href='https://github.com/AbhishekDutt/cs224n-tensorflow'>CS224n Tensorflow</a>",
-    githubUrl: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
+    // githubUrl: 'https://github.com/AbhishekDutt/cs224n-tensorflow',
+    githubUrl: '',
     helpUrl: '',
     tweetText: '',
     // social: `<li>
